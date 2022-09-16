@@ -72,7 +72,7 @@ Open the `index.html` file and follow the steps below.
 
 ### Steps
 
-1. First, insite of the `<div class="wrapper">` add a container for your content. 
+1. First, inside of the `<div class="wrapper">` add a container for your content. 
 
     [Bootstrap container docs][3]
 
@@ -141,7 +141,7 @@ So, now that we have the small layout, let's add some styles to spruce up the pa
 
 Open the `css/main.css` file and follow the steps below.
 
-You'll also need to make changes to the `index.html` file to add the styling classes to th e content.
+You'll also need to make changes to the `index.html` file to add the styling classes to the content.
 
 ### Steps
 
@@ -177,25 +177,22 @@ You'll also need to make changes to the `index.html` file to add the styling cla
 
     ```
     .btn,
-    .btn:hover {
-      background-color: #16b04f;
-      border-color: #16b04f;
-    }
-
+    .btn:hover,
     .btn:active {
       background-color: #16b04f;
+      border-color: #16b04f;
     }
     ```
 
 ## Build - Medium layout
 
-Now working out way up to medium screen sizes, we'll need to make some layout adjustments to accomodate the content to the design.
+Now working our way up to medium screen sizes, we'll need to make some layout adjustments to accomodate the content to the design.
 
 ### Steps
 
 8. Start by increasing the size of your browser viewport, you should notice that the image doesn't stay centered after a certain point.
 
-9. Let's fix this by adjusting the `img` tag. Add the `d-block` and `mx-auto` tags:
+9. Let's fix this by adjusting the `<img>` tag by adding the `d-block` and `mx-auto` classes:
 
     [Bootstrap spacing utilities][8]
 
@@ -207,7 +204,7 @@ Now working out way up to medium screen sizes, we'll need to make some layout ad
 
 ## Build - Large layout
 
-And continuing up to the largest screen sizes, the layout is a lot different since the content is in two columns now, with the text to the left of the image.
+And continuing up to the largest screen sizes, the layout is a lot different since the content is in two columns now, with the text before the image.
 
 ### Steps
 
