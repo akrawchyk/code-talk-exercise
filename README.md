@@ -72,7 +72,7 @@ Open the `index.html` file and follow the steps below.
 
 ### Steps
 
-1. First, insite of the `<div class="wrapper"></div>` add a container for your content. 
+1. First, insite of the `<div class="wrapper">` add a container for your content. 
 
     [Bootstrap container docs][3]
 
@@ -117,7 +117,7 @@ Open the `index.html` file and follow the steps below.
 
 4. That's pretty close, let's adjust the button link to make it match the design better.
 
-    Find the `<a class="btn btn-primary">` tag from the previous step and wrap it with the `<div class="d-grid"></div> tag to make it spann the full width of the page.
+    Find the `<a class="btn btn-primary">` tag from the previous step and wrap it with the `<div class="d-grid">` tag to make it span the full width of the page.
 
     Also, add the "btn-lg" class to the button to make it larger.
 
@@ -155,7 +155,7 @@ You'll also need to make changes to the `index.html` file to add the styling cla
     }
     ```
 
-    In `index.html`, find the `<div class="wrapper"></div>` tag, and add the class we just created:
+    In `index.html`, find the `<div class="wrapper">` tag, and add the class we just created:
 
 ```
 <div class="wrapper bg-light-blue">
@@ -211,7 +211,7 @@ And continuing up to the largest screen sizes, the layout is a lot different sin
 
 ### Steps
 
-10. First, break up the content into two columns by wrapping the text content in a new `<div class="col"></div>` tag.
+10. First, break up the content into two columns by wrapping the text content in a new `<div class="col">` tag.
 
 ```
 <div class="col">
@@ -253,7 +253,7 @@ And continuing up to the largest screen sizes, the layout is a lot different sin
 </div>
 ```
 
-13. Now, we need to change the order of the content so we can display the image to the right of the text with `order-lg-*:
+13. Now, we need to change the order of the content so we can display the image to the right of the text with `order-lg-*`:
 
 ```
 <div class="col-12 col-lg-6 order-lg-2">
